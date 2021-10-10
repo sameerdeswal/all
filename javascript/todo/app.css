@@ -1,0 +1,27 @@
+.done span{
+    text-decoration: line-through;
+}
+h2 {
+    padding: 10 0 0 15px;
+}
+
+.input-div{
+    padding: 10px;
+    display: flex;
+}
+
+.todo-text{
+    padding: 10px;
+    font-size: 14px;
+    flex: 1 1 auto;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+button{
+    padding: 10px;
+}
+
+li div {
+    padding: 0 0 15px 0;
+}

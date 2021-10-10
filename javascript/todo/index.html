@@ -1,0 +1,22 @@
+<html>
+<head>
+    <link href="app.css" rel="stylesheet" type="text/css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <h2>To Do</h2>
+    <div class="input-div">
+        <input class="todo-text" id="todotext" type="text" />
+        <button class="add-btn" onclick="onAdd()">Add</button>
+    </div>
+    <ol id="todolist">
+        <li style="display: none;">
+            <div>
+                <span id="title"></span>
+                <button onclick="toggleDone(this)">Done</button>
+                <button onclick="onDelete(this)">Delete</button>
+            </div>
+        </li>
+    </ol>
+</body>
+</html>
